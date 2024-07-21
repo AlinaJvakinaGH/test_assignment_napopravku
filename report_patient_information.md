@@ -8,17 +8,17 @@
 
 ## Баг-репорты
 
-- [Баг-репорт №1](bug_report_1.md)
-- [Баг-репорт №2](bug_report_2.md)
-- [Баг-репорт №3](bug_report_3.md)
-- [Баг-репорт №4](bug_report_4.md)
-- [Баг-репорт №5](bug_report_5.md)
-- [Баг-репорт №6](bug_report_6.md)
-- [Баг-репорт №7](bug_report_7.md)
-- [Баг-репорт №8](bug_report_8.md)
-- [Баг-репорт №9](bug_report_9.md)
-- [Баг-репорт №10](bug_report_10.md)
-- [Баг-репорт №11](bug_report_11.md)
+- [Баг-репорт №1](reports/bug_report_1.md)
+- [Баг-репорт №2](reports/bug_report_2.md)
+- [Баг-репорт №3](reports/bug_report_3.md)
+- [Баг-репорт №4](reports/bug_report_4.md)
+- [Баг-репорт №5](reports/bug_report_5.md)
+- [Баг-репорт №6](reports/bug_report_6.md)
+- [Баг-репорт №7](reports/bug_report_7.md)
+- [Баг-репорт №8](reports/bug_report_8.md)
+- [Баг-репорт №9](reports/bug_report_9.md)
+- [Баг-репорт №10](reports/bug_report_10.md)
+- [Баг-репорт №11](reports/bug_report_11.md)
 
 ## Какие техники тестирования использовались
 
