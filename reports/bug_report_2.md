@@ -7,7 +7,7 @@
 
 ### Шаги воспроизведения на десктоп версии
 
-1. Перейти по [[ссылке](http://landing.hh-demo.np-internal.ru/)](http://landing.hh-demo.np-internal.ru/) в одном из трёх браузеров (Google Chrome, Яндекс, Mozilla Firefox);
+1. Перейти по [ссылке](http://landing.hh-demo.np-internal.ru/) в одном из трёх браузеров (Google Chrome, Яндекс, Mozilla Firefox);
 2. Открыть DevTools, выставить формат экрана как у макета в фигме для десктопной версии (1919/1080);
 3. Сравнить отображение элементов страницы с макетом в Figma с использованием инструмента Pixel Perfect Pro или аналогами.
 
