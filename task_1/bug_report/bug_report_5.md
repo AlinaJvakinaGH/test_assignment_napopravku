@@ -31,11 +31,6 @@ background: #FFF4CC
 ### Тестовое устройство
 
 - Ноутбук ASUSTeK COMPUTER INC X550VB. Версия 1.0
-- OS Linux Mint 20
-
-### Приоритет
-
-- Minor
 
 ### Серьёзность
 

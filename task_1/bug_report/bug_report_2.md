@@ -1,19 +1,19 @@
 
 # Несоответствие верстки с макетом дизайна (отсутствие точности до "пиксель-перфект" на странице заполнения информации о пациенте в блоке с кнопкой, открывающей поп-ап)
 
-В десктопной версии нижняя часть блока с кнопкой для перехода в поп-ап на Google Chrome, Яндекс, Mozilla Firefox, отображается не так, как на макете в фигме.
+В десктопной версии нижняя часть блока с кнопкой для перехода в поп-ап на Chrome, Яндекс, Mozilla Firefox, отображается не так, как на макете в фигме.
 
 В мобильной версии границы главного блока отображаются не так, как в фигме.
 
 ### Шаги воспроизведения на десктоп версии
 
-1. Перейти по [ссылке](http://landing.hh-demo.np-internal.ru/) в одном из трёх браузеров (Google Chrome, Яндекс, Mozilla Firefox);
+1. Перейти по [ссылке](http://landing.hh-demo.np-internal.ru/) в одном из трёх браузеров (Chrome, Яндекс, Mozilla Firefox);
 2. Открыть DevTools, выставить формат экрана как у макета в фигме для десктопной версии (1919/1080);
 3. Сравнить отображение элементов страницы с макетом в Figma с использованием инструмента Pixel Perfect Pro или аналогами.
 
 ### Шаги воспроизведения на мобильной версии
 
-1. Перейти по [ссылке](http://landing.hh-demo.np-internal.ru/) в одном из трёх браузеров (Google Chrome, Яндекс, Mozilla Firefox);
+1. Перейти по [ссылке](http://landing.hh-demo.np-internal.ru/) в одном из трёх браузеров (Chrome, Яндекс, Mozilla Firefox);
 2. Открыть DevTools, выставить формат экрана как у макета в фигме для мобильной версии (375/859);
 3. Сравнить отображение элементов страницы с макетом в Figma с использованием инструмента Pixel Perfect Pro или аналогами.
 
@@ -24,7 +24,7 @@
 - высота блока 653,017px;
 - недостаточный отступ между изображением и текстом ниже.
 
-**Google Chrome:**
+**Chrome:**
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdorYVhCPAUzLW0Y6zZFYisDxhf9L4n1gHirfqSs_T6iUM0VWbldPHQpK8NJCddgkAKoZSCUEZh9nauDQeXmswBlayUV6T9kg35yAaciO13i-HOnSG1-IfQFMvSeRMn6xaYoZgHmD31iK9CJbYGQCszJrU_?key=W9WZZmEcmfVJofTw_hOVLg)
 
 **Mozilla Firefox:**
@@ -42,7 +42,7 @@
 
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXduIPQ4--535StqfDSIqz8nxewoV52LcqEQe8FY4__qMz8MBt1Gk3Cc4yos9puajnfQlv6KZ-8MUnGEZ3aDnO9uFZM0SZZtkfvGUcf3d5jXA7FzNR7UOJ8g9z0zrxuTegl4oXGEtp0EFhiNeGUmYt5KJd8?key=W9WZZmEcmfVJofTw_hOVLg)
 
-**Google Chrome**
+**Chrome**
 
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfQ9f_2YyLNVFer8BeKj99w9lmFF0DGLiU1T1IE7YUygEw5Pu5a5BTW4SaWD38HWjZz7I1nt5v9YIX4BkBpENu28SvET1FmmjZ7JgBPWvSBOhxvwMhJtVaoxaKV2bzDab5JGtnbyA5tkJsP_2QznM9M7wRI?key=W9WZZmEcmfVJofTw_hOVLg)
 
@@ -56,7 +56,7 @@
 
 Браузеры:
 
-- Google Chrome. Версия 125.0.6422.61
+- Chrome. Версия 125.0.6422.61
 - Яндекс. Версия 122.0.6261.952
 - Mozilla Firefox. Версия 125.0.2 (64arm)
 
@@ -69,10 +69,6 @@
 
 Здесь должна быть ссылка на яндекс-метрику (или другую Вашу метрику) с количеством пользователей, которых задевает данная проблема.
 
-### Приоритет
-
-- Minor
-
 ### Серьёзность
 
-- Trivial
+- Minor

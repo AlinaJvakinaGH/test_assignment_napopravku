@@ -1,18 +1,18 @@
 
 # Несоответствие верстки с макетом дизайна (отсутствие точности до "пиксель-перфект" в поп-ап)
 
-В мобильной и десктопной версии границы поп-ап в профиле для заполнения информации о пациенте на Google Chrome, Яндекс, Mozilla Firefox, отображается не так, как на макете в фигме.
+В мобильной и десктопной версии границы поп-ап в профиле для заполнения информации о пациенте на Chrome, Яндекс, Mozilla Firefox, отображается не так, как на макете в фигме.
 
 ### Шаги воспроизведения на десктоп версии
 
-1. Перейти по [ссылке](http://landing.hh-demo.np-internal.ru/) в одном из трёх браузеров (Google Chrome, Яндекс, Mozilla Firefox);
+1. Перейти по [ссылке](http://landing.hh-demo.np-internal.ru/) в одном из трёх браузеров (Chrome, Яндекс, Mozilla Firefox);
 2. Нажать на кнопку “Перейти к заполнению” в блоке;
 3. Открыть DevTools, выставить формат экрана как у макета в фигме для десктоп версии (1919/1314);
 4. Сравнить отображение элементов страницы с макетом в Figma с использованием инструмента Pixel Perfect Pro или аналогами.
 
 ### Шаги воспроизведения на мобильной версии
 
-1. Перейти по [ссылке](http://landing.hh-demo.np-internal.ru/) в одном из трёх браузеров (Google Chrome, Яндекс, Mozilla Firefox);
+1. Перейти по [ссылке](http://landing.hh-demo.np-internal.ru/) в одном из трёх браузеров (Chrome, Яндекс, Mozilla Firefox);
 2. Нажать на кнопку “Перейти к заполнению” в блоке;
 3. Открыть DevTools, выставить формат экрана как у макета в фигме для мобильной версии (375/1589);
 4. Сравнить отображение элементов страницы с макетом в Figma с использованием инструмента Pixel Perfect Pro или аналогами.
@@ -29,7 +29,7 @@
 
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfv3TdcqteFDMeKr_aFOoA9HcG7EGfyqMjpD0WVkwxBCBn71hhjpFYckG3luGyMURLIar5Bx78c3fOlWDI6lcL4nHuLsl6IkGwSJ__vMsEinbG1Yr8o7Y4hYxfbLdnkkJ3D_okELN_OjE2kgvdqsK7r9CE?key=5zm4E5ppL1fPPahAzLazLw)
 
-**Google Chrome:**
+**Chrome:**
 
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdt7tvOZDOPX61WdK5C-OmDAh_s3azHP0Iom4Jcgolp64rnFWRZGMO6oHAcfPOQbO9mzRzID7B46qbpgMfJzykU8w6wpofUp--z-jE6HlN6z-g6dGD9PGPquzYx3kOrHMyuFRkAMxWp2iCrb_wsdzUb7Iw?key=5zm4E5ppL1fPPahAzLazLw)
 
@@ -58,7 +58,7 @@
 
 Браузеры:
 
-- Google Chrome. Версия 125.0.6422.61
+- Chrome. Версия 125.0.6422.61
 - Яндекс. Версия 122.0.6261.952
 - Mozilla Firefox. Версия 125.0.2 (64arm)
 
@@ -71,10 +71,6 @@
 
 Здесь должна быть ссылка на яндекс-метрику (или другую Вашу метрику) с количеством пользователей, которых задевает данная проблема.
 
-### Приоритет
-
-- Minor
-
 ### Серьёзность
 
-- Trivial
+- Minor
