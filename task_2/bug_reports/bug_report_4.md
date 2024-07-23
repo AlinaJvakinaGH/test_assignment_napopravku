@@ -37,10 +37,12 @@
 - OS Linux Mint 20
 - iPhone 12 mini (5,42 дюйма)
 
-### curl запроса
-```json
-curl 'http://cloud.hh-demo.np-internal.ru/php/upload.php' -X POST -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0' -H 'Accept: */*' -H 'Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3' -H 'Accept-Encoding: gzip, deflate' -H 'Content-Type: multipart/form-data; boundary=---------------------------190da2b9f59' -H 'Origin: http://cloud.hh-demo.np-internal.ru' -H 'DNT: 1' -H 'Connection: keep-alive' -H 'Referer: http://cloud.hh-demo.np-internal.ru/' -H 'Cookie: user__password=adminNaPopravku; user__name=napopravku; user__id=2; user__loggedin=1' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache' --data-binary $'-----------------------------190da2b9f59\r\nContent-Disposition: form-data; name="files[]"; filename="ssssss.jpg"\r\nContent-Type: image/jpeg\r\n\r\n-----------------------------190da2b9f59--\r\n'
+### cURL запроса
+
+```bash
+curl "http://cloud.hh-demo.np-internal.ru/php/upload.php" -X POST -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" -H "Accept: */*" -H "Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3" -H "Accept-Encoding: gzip, deflate" -H "Content-Type: multipart/form-data; boundary=---------------------------190da2b9f59" -H "Origin: http://cloud.hh-demo.np-internal.ru" -H "DNT: 1" -H "Connection: keep-alive" -H "Referer: http://cloud.hh-demo.np-internal.ru/" -H "Cookie: user__password=adminNaPopravku; user__name=napopravku; user__id=2; user__loggedin=1" -H "Pragma: no-cache" -H "Cache-Control: no-cache" --data-binary $'-----------------------------190da2b9f59\r\nContent-Disposition: form-data; name="files[]"; filename="ssssss.jpg"\r\nContent-Type: image/jpeg\r\n\r\n-----------------------------190da2b9f59--\r\n'
 ```
+
 ### Аналитика
 
 Если бы я у Вас работала, то прикрепила бы ссылку на яндекс-метрику (или другую Вашу метрику) с количеством пользователей, которых задевает данная проблема.
