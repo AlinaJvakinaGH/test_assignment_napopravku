@@ -10,7 +10,7 @@
 4. Проскролить до футера страницы;
 5. Нажать кнопку “Add Folder”;
 6. Присвоить папке любое имя;
-7. Нажать “Ок”.
+7. Подтвердить.
 
 ### Текущий результат
 
@@ -38,7 +38,9 @@
 
 ### curl запроса
 
-curl '<http://cloud.hh-demo.np-internal.ru/php/upload.php>' -X POST -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0' -H 'Accept: */*' -H 'Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3' -H 'Accept-Encoding: gzip, deflate' -H 'Content-Type: multipart/form-data; boundary=---------------------------6870745628193552962350940739' -H 'Origin: <http://cloud.hh-demo.np-internal.ru>' -H 'DNT: 1' -H 'Connection: keep-alive' -H 'Referer: <http://cloud.hh-demo.np-internal.ru/>' -H 'Cookie: user__password=adminNaPopravku; user__name=napopravku; user__id=2; user__loggedin=1' -H 'Priority: u=0' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache' --data-binary $'-----------------------------6870745628193552962350940739\r\nContent-Disposition: form-data; name="add_folder"\r\n\r\ntrue\r\n-----------------------------6870745628193552962350940739\r\nContent-Disposition: form-data; name="add_folder__name"\r\n\r\nNew Folder \u2116 1\r\n-----------------------------6870745628193552962350940739\r\nContent-Disposition: form-data; name="parent_folder__id"\r\n\r\n1\r\n-----------------------------6870745628193552962350940739--\r\n'
+```json
+curl 'http://cloud.hh-demo.np-internal.ru/php/upload.php' -X POST -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0' -H 'Accept: */*' -H 'Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3' -H 'Accept-Encoding: gzip, deflate' -H 'Content-Type: multipart/form-data; boundary=---------------------------6870745628193552962350940739' -H 'Origin: http://cloud.hh-demo.np-internal.ru' -H 'DNT: 1' -H 'Connection: keep-alive' -H 'Referer: http://cloud.hh-demo.np-internal.ru/' -H 'Cookie: user__password=adminNaPopravku; user__name=napopravku; user__id=2; user__loggedin=1' -H 'Priority: u=0' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache' --data-binary $'-----------------------------6870745628193552962350940739\r\nContent-Disposition: form-data; name="add_folder"\r\n\r\ntrue\r\n-----------------------------6870745628193552962350940739\r\nContent-Disposition: form-data; name="add_folder__name"\r\n\r\nNew Folder \u2116 1\r\n-----------------------------6870745628193552962350940739\r\nContent-Disposition: form-data; name="parent_folder__id"\r\n\r\n1\r\n-----------------------------6870745628193552962350940739--\r\n'
+```
 
 ### Аналитика
 

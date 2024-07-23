@@ -38,7 +38,9 @@
 
 ### curl запроса
 
-curl '<http://cloud.hh-demo.np-internal.ru/favicon.ico>' --compressed -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0' -H 'Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5' -H 'Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3' -H 'Accept-Encoding: gzip, deflate' -H 'DNT: 1' -H 'Connection: keep-alive' -H 'Referer: <http://cloud.hh-demo.np-internal.ru/>' -H 'Priority: u=6' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache'
+```json
+curl 'http://cloud.hh-demo.np-internal.ru/favicon.ico' --compressed -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0' -H 'Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5' -H 'Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3' -H 'Accept-Encoding: gzip, deflate' -H 'DNT: 1' -H 'Connection: keep-alive' -H 'Referer: http://cloud.hh-demo.np-internal.ru/' -H 'Priority: u=6' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache'
+```
 
 ### Аналитика
 

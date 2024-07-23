@@ -8,13 +8,13 @@
 
 ## Баг-репорты
 
-- [Баг-репорт №1](bug_report/bug_report_1.md)
-- [Баг-репорт №2](bug_report/bug_report_2.md)
-- [Баг-репорт №3](bug_report/bug_report_3.md)
-- [Баг-репорт №4](bug_report/bug_report_4.md)
-- [Баг-репорт №5](bug_report/bug_report_5.md)
-- [Баг-репорт №6](bug_report/bug_report_6.md)
-- [Баг-репорт №7](bug_report/bug_report_7.md)
+- [Баг-репорт №1](bug_reports/bug_report_1.md)
+- [Баг-репорт №2](bug_reports/bug_report_2.md)
+- [Баг-репорт №3](bug_reports/bug_report_3.md)
+- [Баг-репорт №4](bug_reports/bug_report_4.md)
+- [Баг-репорт №5](bug_reports/bug_report_5.md)
+- [Баг-репорт №6](bug_reports/bug_report_6.md)
+- [Баг-репорт №7](bug_reports/bug_report_7.md)
 
 ## Какие техники тестирования использовались
 
@@ -29,6 +29,5 @@
 Количество тестовых случаев, которые были отложены до исправления основного функционала:  866
 
 - Количество багов по серьёзности "Critical": 2
-- Количество багов по серьёзности "Major": 4
+- Количество багов по серьёзности "Major": 3
 - Количество багов по серьёзности "Minor": 2
-- Количество багов по серьёзности "Trivial": 1

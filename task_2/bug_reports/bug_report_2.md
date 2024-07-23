@@ -1,6 +1,6 @@
 # Не работает кнопка  “Log Out”, на странице авторизации и облачного диска
 
-При нажатии на кнопку “Log Out”, страница авторизации и облачного диска перезагружается и появляется страница “Хмм. Нам не удаётся найти этот сайт.” с 304 ошибкой.
+При нажатии на кнопку “Log Out”, страница авторизации и облачного диска перезагружается и появляется страница “Хмм. Нам не удаётся найти этот сайт.” с 302 ошибкой.
 
 ### Шаги воспроизведения на странице авторизации
 
@@ -43,11 +43,15 @@
 
 ### curl запроса на странице авторизации
 
-curl '<http://cloud.hh-demo.np-internal.ru/php/auth.php?logout=true>' -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8' -H 'Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3' -H 'Accept-Encoding: gzip, deflate' -H 'DNT: 1' -H 'Connection: keep-alive' -H 'Referer: <http://cloud.hh-demo.np-internal.ru/>' -H 'Upgrade-Insecure-Requests: 1' -H 'Priority: u=0, i' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache'
+```json
+curl 'http://cloud.hh-demo.np-internal.ru/php/auth.php?logout=true' -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8' -H 'Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3' -H 'Accept-Encoding: gzip, deflate' -H 'DNT: 1' -H 'Connection: keep-alive' -H 'Referer: http://cloud.hh-demo.np-internal.ru/' -H 'Upgrade-Insecure-Requests: 1' -H 'Priority: u=0, i' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache'
+```
 
 ### curl запроса на странице облачного диска
 
-curl '<http://cloud.hh-demo.np-internal.ru/php/auth.php?logout=true>' -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8' -H 'Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3' -H 'Accept-Encoding: gzip, deflate' -H 'DNT: 1' -H 'Connection: keep-alive' -H 'Referer: <http://cloud.hh-demo.np-internal.ru/>' -H 'Cookie: user__password=adminNaPopravku; user__name=napopravku; user__id=2; user__loggedin=1' -H 'Upgrade-Insecure-Requests: 1' -H 'Priority: u=0, i' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache'
+```json
+curl '<http://cloud.hh-demo.np-internal.ru/php/auth.php?logout=true>' -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8' -H 'Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3' -H 'Accept-Encoding: gzip, deflate' -H 'DNT: 1' -H 'Connection: keep-alive' -H 'Referer: http://cloud.hh-demo.np-internal.ru/' -H 'Cookie: user__password=adminNaPopravku; user__name=napopravku; user__id=2; user__loggedin=1' -H 'Upgrade-Insecure-Requests: 1' -H 'Priority: u=0, i' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache'
+```
 
 ### Аналитика
 
